@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: new-topic
+
+server:
+  port: 8081
